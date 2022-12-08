@@ -1,4 +1,9 @@
-import { GlobalStyledComponent } from 'styled-components';
+import { createGlobalStyle, GlobalStyledComponent } from 'styled-components';
 
 
-export const GlobalStyledComponent {}
+export default createGlobalStyle`
+    *, body {
+        margin: 0;
+        padding: 0;
+    }
+`

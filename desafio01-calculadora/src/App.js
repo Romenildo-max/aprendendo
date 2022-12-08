@@ -1,9 +1,11 @@
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 function App() {
   return (
     <Container>
-      Olá React
+      <Content>
+        Olá React
+      </Content>
     </Container>
   );
 }
