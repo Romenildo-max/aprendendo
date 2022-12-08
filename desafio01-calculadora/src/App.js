@@ -1,10 +1,10 @@
-
+import { Container } from './styles';
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       Olá React
-    </div>
+    </Container>
   );
 }
 
