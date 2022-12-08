@@ -4,7 +4,7 @@ function App() {
   return (
     <Container>
       <Content>
-        Olá React
+        Olá 
       </Content>
     </Container>
   );

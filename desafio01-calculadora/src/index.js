@@ -9,7 +9,7 @@ root.render(
   <React.GlobalStyles>
     <GlobalStyles />
     <App />
-  </React.StrictMode>
+  </React.GlobalStyles>
 );
 
 
